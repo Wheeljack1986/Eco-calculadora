@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultado</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    {% block content %}
+    <h1 >Resultados del formulario</h1>
+    <p>Tu nombre: {{name}} </p>
+    <p>Tu email: {{email}} </p>
+    <p>Tu fecha: {{date}} </p>
+    <p>Tu dirección: {{address}} </p>
+    {% endblock %}
+</body>
+</html>
