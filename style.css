@@ -6,8 +6,8 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     line-height: 20px;
-    background-color: #fff;
-    color: #272727;
+    background-color: #272727;
+    color: #e0e0e0;
 }
 
 h1, h2, p {
@@ -26,7 +26,7 @@ ul {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: left;
-    background-color: #CCE59D;
+    background-color: #3d543c;
     padding: 25vh 30px;
     margin-bottom: 60px;
     display: flex;
